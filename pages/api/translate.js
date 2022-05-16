@@ -16,7 +16,7 @@ export default async function handler(req, res) {
         return res.status(400).json({'success': false, 'error': `Unknown language from`});
     }
 
-    if (!languages.includes(languageTo) && languageTo === 'auto') {
+    if (!languages.includes(languageTo) || languageTo === 'auto') {
         return res.status(400).json({'success': false, 'error': `Unknown language to`});
     }
 
