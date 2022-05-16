@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Endpoints:<br>
+/api/languages - get available languages<br>
+/api/translate - [POST] [text, from, to] translate
