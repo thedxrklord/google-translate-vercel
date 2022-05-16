@@ -5,7 +5,13 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
+    "chrome-aws-lambda": "^7.0.0",
+    "puppeteer": "^7.1.0",
+    "puppeteer-core": "^7.1.0",
     "date-fns": "^2.11.1",
     "gray-matter": "^4.0.2",
     "next": "latest",
